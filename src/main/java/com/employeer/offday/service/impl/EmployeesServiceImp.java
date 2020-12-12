@@ -1,20 +1,16 @@
 package com.employeer.offday.service.impl;
 
 import com.employeer.offday.DTO.EmployeesDTO;
-import com.employeer.offday.DTO.RestDaysDTO;
 import com.employeer.offday.entity.Employees;
 import com.employeer.offday.entity.RestDays;
 import com.employeer.offday.repo.EmployeesRepository;
 import com.employeer.offday.repo.RestDaysRepository;
 import com.employeer.offday.service.EmployeesService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.jpa.repository.query.Procedure;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.Assert;
 
-import javax.persistence.NamedStoredProcedureQuery;
 import java.util.*;
 import java.util.stream.Collectors;
 

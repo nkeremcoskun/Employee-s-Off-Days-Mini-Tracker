@@ -38,7 +38,7 @@ public class EmployeesController {
     }
 
     @PutMapping("/update/{id}")
-    @ApiOperation(value = "Update Employee Informations by ID")
+    @ApiOperation(value = "Update Employee's Informations by ID")
     public ResponseEntity<EmployeesDTO> updateEmployee(@RequestBody EmployeesDTO employeesDTO,@PathVariable Integer id){
         return ResponseEntity.ok(employeesService.updateEmployee(employeesDTO,id));
     }

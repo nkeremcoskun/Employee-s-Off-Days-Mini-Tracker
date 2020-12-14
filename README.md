@@ -3,14 +3,7 @@ Spring Boot, PostgreSQL, Swagger UI and some patience
 
 - 2 Entities
 - 1 Service Class for Operations (EmployeesServiceImp.java)
-- Used 
-    *Spring JPA
-    *Spring Boot
-    *Spring Web
-    *Lombok
-    *Lambda
-    *Swagger UI
-    *PostgreSQL
+- Used : Spring JPA, Spring Boot, Spring Web, Lombok, Lambda, Swagger UI, PostgreSQL
 - CRUD Operations with API
 - Swagger UI for API Operations
 - PostgreSQL for database
